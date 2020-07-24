@@ -1,0 +1,59 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box; 
+  text-align:center;
+}
+form input, form select{
+	color:#2a9d8f;
+	font-size: 1.1rem;
+	border:2px solid #2a9d8f
+
+}
+form label{
+	color: #707070;
+	position:relative;
+	font-size: 1.4rem;
+
+}
+
+.picker__date-display {
+  background-color:blue;
+}
+
+.reason h1{
+	margin-bottom: 60px;
+}
+.tel{
+	width:140px;
+	margin:0;
+	padding:10px;
+	border:2px solid #2a9d8f;
+	text-align:center;
+	margin-top: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+td{
+	background-color: #202020;
+  border: 1px solid #2a9d8f;
+  text-align: left;
+  padding: 8px;
+  font-size:1.2rem;
+  color:white;
+}
+
+#table h3{
+	color: #707070;
+}
+ 
+@media (max-width: 960px) {
+	table{width: 70%;}
+	form input, form select, form label {
+		width:70%;
+	}
+}
