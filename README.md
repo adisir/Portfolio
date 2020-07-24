@@ -21,7 +21,7 @@ Finally, the meet me section was added to meet all the technical specifications 
 #Features 
 The portfolio is fully responsive because of a media query. Once the screen size hits certain breakpoints. Image-widths are turned into percentages so that they can be resized according to the device. 
 
-```
+```css
 @media (max-width: 960px) {
 	.profile-img img{
 		width: 90%;
