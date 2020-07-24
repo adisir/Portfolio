@@ -52,3 +52,21 @@ The portfolio is fully responsive because of a media query. Once the screen size
 	}
 }
 ```
+# Libraries
+
+This project uses the ScrollTrigger plugin from the GSAP library to use trigger animations on scroll in the skills animation on the skills page. I initialized a timeline properties like so and added animations to be triggered on scroll when it hits the skills class. 
+
+```js
+var t1 = gsap.timeline({
+	scrollTrigger: {
+      trigger: ".skills",
+      pin: true,   // pin the trigger element while active
+      start: "top top", // when the top of the trigger hits the top of the viewport
+      end: "+=500", // end after scrolling 500px beyond the start
+      scrub: 1
+    }
+  }
+)
+```
+
+This library can be found at https://greensock.com/docs/
