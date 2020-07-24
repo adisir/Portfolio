@@ -1,15 +1,15 @@
-#PortfolioExampleSBA
+# PortfolioExampleSBA
 
 This is an example portfolio I made for a full stack java course. We were given the option to make anything with the skills we made and I made an example portfolio. I learned a lot from this project and I will probably use a similar portfolio later without the meet me section. I added that part to meet the technical specifications. 
 
-#Getting Started 
+# Getting Started 
 To open the website, you can open the index.html and that will serve as the home page. 
 
-#Installation 
+# Installation 
 
 There is no installation. You can run index.html in any browser like chrome. 
 
-#Functionality 
+# Functionality 
 On the home page, my name and job have rubberband animation on hover and contact me button also has an animation on hover. 
 
 In the about me section, I used scrollTrigger and GSAP library to make the bars work on scroll. So if you scroll down they increase, if you scroll up they decrease. 
@@ -18,7 +18,7 @@ The projects section has buttons that filter what type of projects the person ca
 
 Finally, the meet me section was added to meet all the technical specifications of the project such as having a table and another form with regex validation. 
 
-#Features 
+# Features 
 The portfolio is fully responsive because of a media query. Once the screen size hits certain breakpoints. Image-widths are turned into percentages so that they can be resized according to the device. 
 
 ```css
